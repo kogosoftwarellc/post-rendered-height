@@ -24,11 +24,11 @@
     all().forEach(applyHeight);
   }
 
-  if ('onorientationchange' in window) window.addEventListener('orientationchange',
-      function() {
-        all().forEach(removeHeight);
-        setTimeout(function() {
-          all().forEach(applyHeight);
-        }, 10);
-      });
+  window.addEventListener('orientationchange', function() {
+    var els = all();
+    els.forEach(removeHeight);
+    setTimeout(function() {
+      els.forEach(applyHeight);
+    }, 10);
+  });
 }(typeof window !== 'undefined' ? window : {}));
