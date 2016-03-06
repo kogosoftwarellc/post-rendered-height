@@ -1,0 +1,28 @@
+{
+  "name": "post-rendered-height",
+  "version": "1.0.0",
+  "description": "Sets the height of elements in a web browser post rendering.",
+  "main": "post-rendered-height.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kogosoftwarellc/post-rendered-height.git"
+  },
+  "keywords": [
+    "post",
+    "rendered",
+    "height",
+    "browser",
+    "css",
+    "address",
+    "fix"
+  ],
+  "author": "Kogo Software LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kogosoftwarellc/post-rendered-height/issues"
+  },
+  "homepage": "https://github.com/kogosoftwarellc/post-rendered-height#readme"
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Testing post-rendered-height</title>
+    <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      width: 100%;
+    }
+
+    #testing-div-1 {
+      background-color: blue;
+      height: 100%;
+    }
+
+    #testing-div-2 {
+      height: 50%;
+    }
+
+    #testing-div-3 {
+      background-color: red;
+      height: 8000px;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="testing-div-1" post-rendered-height></div>
+    <div id="testing-div-2" post-rendered-height></div>
+    <div id="testing-div-3"></div>
+    <script src="./post-rendered-height.js"></script>
+    <script>
+      PostRenderedHeight.init();
+    </script>
+  </body>
+</html>
