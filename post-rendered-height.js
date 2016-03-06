@@ -16,7 +16,7 @@
   }
 
   function removeHeight(el) {
-    delete el.style.height;
+    el.style.height = '';
     delete el.__PostRenderedHeight__height__set;
   }
 
