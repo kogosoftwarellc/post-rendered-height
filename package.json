@@ -1,6 +1,6 @@
 {
   "name": "post-rendered-height",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sets the height of elements in a web browser post rendering.",
   "main": "post-rendered-height.js",
   "scripts": {
